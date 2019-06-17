@@ -1,0 +1,140 @@
+
+.swiper-slide>img{
+    width: 100%;
+    box-sizing:border-box;
+    /* height: 165px; */
+}
+
+/* 电台 */
+.midd{
+    padding-left:16px;
+    height: 270px;
+    width: 100%;
+    box-sizing:border-box;
+}
+.midd .box img{
+    width: 100px;
+    height: 100px;
+
+}
+.midd .box{
+    display: inline-block;
+    float: left;
+    width: 45%;
+    height: 233px;
+    /* margin-right: 5px */
+    background: white;
+}
+.midd .box img{
+    width: 100%;
+    height: 193px;
+}
+.midd span{
+    font-size: 14px
+}
+.box{
+    margin-right: 13px;
+    position: relative;
+    margin-bottom: 10px
+}
+.box b{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url(../state/list_sprite.png);
+    background-size: 24px;
+    position: absolute;
+    right: 5px;
+    bottom: 55px;
+}
+
+
+/* 热门歌单 */
+.hot{
+    margin: 0 10px 
+}
+span{
+    display: inline-block;
+    width: 150px;
+    overflow:hidden;
+
+    word-break:keep-all;
+
+    white-space:nowrap;
+
+    text-overflow:ellipsis;
+
+}
+
+/* 底部 */
+.under{
+    width: 370px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 60px
+}
+.under a{
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.under i{
+    width: 82px;
+    height: 24px;
+    display: inline-block;
+    background: url(../state/logo_footer.png);
+    background-size: 82px 24px;
+    margin-top: 10px;
+}
+.under p{
+    font-size: 10px;
+    color: #666;
+
+}
+
+
+/* 弹出框 */
+
+.ban{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+.go{
+    width: 296px;
+    height: 324px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -148px;
+    margin-top: -162px
+}
+.go img{
+    width: 100%;
+}
+.ban b{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    /* background: red; */
+    position: fixed;
+    background: url(../state/close.png);
+    background-size: 100%;
+    left: 50%;
+    bottom: 13%;
+    margin-left: -25px;
+    /* margin-top: -25px; */
+    cursor: pointer;
+}
+.close{
+    display: none;
+}
